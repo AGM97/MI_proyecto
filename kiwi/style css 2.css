@@ -1,0 +1,71 @@
+/*Mi primer CSS - Esto es un comentario */
+
+
+header {
+	
+	background-color:green;
+	color:rgb(33,33,33); 
+	padding:15px;
+	border: 15px solid darkgreen;
+	text-align:center;
+	font-family: verdana;
+}
+body {
+	
+	margin: 0 auto;
+	width: 90%;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+aside p {
+	font-size:30px;
+	font-family:monospace;
+}
+section .par_color{
+	
+color: green;
+}
+
+section #mi_color{
+	color:blue;
+	
+}
+nav ul li a {
+	text-decoration:none;
+	color:darkgreen;
+	;
+}
+nav u lli a:hover{
+	color: darkgreen;
+	display:inline-block;
+}
+aside{
+	width:18%;
+	padding:3% 4% 2%;
+	background-color:darkgreen;
+	float:right;
+	
+}
+section{
+	width:30%;
+	background-color:red;
+	float:left;
+}
+section p{
+	font-family:monospace;
+    font-size:20pmx;
+	text-align: justify;
+}
+footer{
+	clear:both;
+	background-color:blue;
+	color:red;
+	width:50%;
+	padding:2%;
+	text-align:center;
+	font-size: 30%;
+}
